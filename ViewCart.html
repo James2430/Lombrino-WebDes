@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ViewCart.css">
+    <title>View Cart - HoodHaven</title>
+</head>
+
+<body>
+    <div class="head">
+            <div class="header-text">
+                <img src="images/logo.png" alt=""> 
+                <h1>HOODHAVEN</h1>
+                <h2>Style Meets Comfort</h2>
+            </div>
+    </div>
+
+    <nav>
+        <a href="HomePage.html" data-tooltip="Go to Home">Home</a>
+        <a href="Products.html" data-tooltip="Check Our Products">Products</a>
+        <a href="AboutUs.html" data-tooltip="Learn About Us">About Us</a>
+        <a href="ContactUs.html" data-tooltip="Send Us a Message">Contact Us</a>
+        <a href="ViewCart.html" data-tooltip="View Your Cart">View Cart</a>
+    </nav>
+
+    <section id="cart">
+        <h2>Your Cart</h2>
+        <table id="cart-table">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Size</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Cart items will be dynamically added here -->
+            </tbody>
+        </table>
+    </section>
+
+    <section id="order-summary">
+        <h2>Order Summary</h2>
+        <p id="total-amount">Total Amount: ₱0.00</p>
+
+        <div id="payment-method">
+            <h3>Payment Method</h3>
+            <select id="payment-options">
+                <option value="credit-card">Credit Card</option>
+                <option value="paypal">PayPal</option>
+                <option value="bank-transfer">Bank Transfer</option>
+            </select>
+        </div>
+
+        <button id="confirm-order">Confirm Order</button>
+    </section>
+
+    <footer>
+        <div>
+            <p>&copy; 2024 HoodHaven. All rights reserved.</p>
+        </div>
+        <div>
+            <p>Follow us on social media:</p>
+            <a href="https://www.facebook.com/profile.php?id=100092353251187&mibextid=LQQJ4d" target="_blank">Facebook</a>
+            <a href="https://x.com/gracelessj?s=11" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com/jaemslacomus?igsh=NXNkbmhobmJ3amdw&utm_source=qr" target="_blank">Instagram</a>
+        </div>
+    </footer>
+
+    <script src="viewCart.js"></script>
+</body>
+
+</html>

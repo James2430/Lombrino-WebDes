@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="stylesheet" href="HomePage.css">
+	  <link rel="stylesheet" href="Products.css">
+	   <link rel="stylesheet" href="AboutUs.css">
+	    <link rel="stylesheet" href="ContactUs.css">
+		<link rel="stylesheet" href="ViewCart.css">
+    <title>Home Page - HoodHaven</title>
+</head>
+
+<body>
+<div class="head">
+            <div class="header-text">
+                <img src="images/logo.png" alt=""> 
+                <h1>HOODHAVEN</h1>
+                <h2>Style Meets Comfort</h2>
+            </div>
+    </div>
+
+   <nav>
+    <a href="HomePage.html" data-tooltip="Go to Home">Home</a>
+    <a href="Products.html" data-tooltip="Check Our Products">Products</a>
+    <a href="AboutUs.html" data-tooltip="Learn About Us">About Us</a>
+    <a href="ContactUs.html" data-tooltip="Send Us a Message">Contact Us</a>
+    <a href="ViewCart.html" data-tooltip="View Your Cart">View Cart</a>
+</nav>
+
+<div class="main-content">
+    <div class="services">
+        <h2>SHOW YOUR HOODIE PERSONALITY!</h2>
+        <p><h3>Embrace the Comfort, Elevate Your Style: HoodHaven - Where Every Hoodie Tells a Unique Story.</h3></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/62Bpl2qYvxM?si=cJoVZQWC3LH7Ly2S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <div class="article-container">
+        <div class="video-container">
+            <video width="560" height="315" controls title="About HoodHaven Video">
+                <source src="video/article vid.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="text-container">
+            <h2>ABOUT HOODHAVEN</h2>
+            <p>
+                HoodHaven offers a wide range of stylish and comfortable hoodies for every occasion. Our collection is designed to blend fashion with comfort, ensuring that you look good while feeling cozy. Each hoodie is crafted with high-quality materials, providing you with the ultimate in softness and durability.
+                <br><br>
+                Whether you're lounging at home or out on the town, our hoodies are perfect for any setting. With a variety of colors and styles to choose from, you'll find the perfect hoodie to match your personality and style. Join the HoodHaven community and embrace the comfort and style that our hoodies provide.
+            </p>
+        </div>
+    </div>
+
+    <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Search..." title="Search HoodHaven">
+        <button id="search-button" title="Click to Search">Search</button>
+    </div>
+
+    <div class="more-details">
+        <h2><center>Diverse Style.</center></h2>
+        <p><h3><center>We offer different sizes in different styles. Choose what suits you. Embrace the warmth of being a Champ.</center></h3></p>
+        <img src="images/product 1.png" alt="Image 1" title="Product 1">
+        <img src="images/product 2.png" alt="Image 2" title="Product 2">
+        <img src="images/product 3.png" alt="Image 3" title="Product 3">
+        <img src="images/product 4.png" alt="Image 4" title="Product 4">
+        <img src="images/product 5.png" alt="Image 5" title="Product 5">
+    </div>
+
+    <section class="services">
+        <div class="ser-color">
+            <h1 class="ser-h1">
+                Services
+            </h1>
+
+            <h2 class="ser-h2">
+                Care and Maintenance
+            </h2>
+        </div>
+
+        <div class="info-ser">
+            <div class="ser-box">
+                <i class='bx bxs-watch' title="Tailored Fit Guarantee"></i>
+                <h3>
+                    Tailored Fit Guarantee
+                </h3>
+                <p>
+                    Your comfort is our first priority. Every hoodie is made to order with our custom fit guarantee, hugging your body with the exact amount of ease and style.
+                </p>
+            </div>
+            <div class="ser-box">
+                <i class='bx bxl-sketch' title="Superior Linen Choice"></i>
+                <h3>
+                    Superior Linen Choice
+                </h3>
+                <p>
+                    Savor elegance on each strand. For our sweatshirts, HoodieHaven chooses only the best materials, guaranteeing unmatched softness and longevity ensuring that you can enjoy toasty comfort without sacrificing quality.
+                </p>
+            </div>
+            <div class="ser-box">
+                <i class='bx bxl-opera' title="Unlimited Warmth"></i>
+                <h3>
+                    Unlimited Warmth
+                </h3>
+                <p>
+                    Explore the pinnacle of coziness and comfort with our classic sweatshirt designs. HoodieHaven offers a variety of styles that go well with every outfit, from traditional colors to cutting-edge cuts.
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <hr>
+
+    <ul>
+        <p><b> To know more about the products, you may click the links below: </b></p>
+        <li><a href="#" title="Watch YouTube Video 1">https://www.youtube.com/watch?v=qERfsVL3Yls</a></li>
+        <li><a href="#" title="Watch YouTube Video 2">https://www.youtube.com/watch?v=aB7DnvoajtI</a></li>
+        <li><a href="#" title="Watch YouTube Video 3">https://www.youtube.com/watch?v=MtXEflSs9B8</a></li>
+    </ul>
+</div>
+
+<div class="subscription">
+    <h2>Subscribe to our Newsletter</h2>
+    <form action="subscribe.php" method="POST">
+        <input type="email" name="email" placeholder="Enter your email" required title="Enter your email to subscribe">
+        <button type="submit" title="Subscribe to our Newsletter">Subscribe</button>
+    </form>
+</div>
+
+<section id="services">
+    <h2><center>Our Products</center></h2>
+
+    <table>
+        <tr>
+            <th>Image</th>
+            <th>Product Name</th>
+            <th>Description</th>
+            <th>Sizes</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Add to Cart</th>
+        </tr>
+
+        <tr>
+            <td><img src="images/product 1.png" alt="Hoodie 1"></td>
+            <td><h3>Creamy Cloud Comfort</h3></td>
+            <td>Plush Cloud-Like Softness, Ultimate Comfort</td>
+            <td>
+                <select>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>₱3000.00</td>
+            <td><button>Add to Cart</button></td>
+        </tr>
+
+        <tr>
+            <td><img src="images/product 2.png" alt="Hoodie 2"></td>
+            <td><h3>Mocha Hug Blend</h3></td>
+            <td>Rich Mocha Warmth, Cozy Embrace</td>
+            <td>
+                <select>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>₱5000.00</td>
+            <td><button>Add to Cart</button></td>
+        </tr>
+
+        <tr>
+            <td><img src="images/product 3.png" alt="Hoodie 3"></td>
+            <td><h3>Celadon Serenity Cloak</h3></td>
+            <td>Smooth Serenity, Elegant Celadon Cloak</td>
+            <td>
+                <select>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>₱3250.00</td>
+            <td><button>Add to Cart</button></td>
+        </tr>
+
+        <tr>
+            <td><img src="images/product 4.png" alt="Hoodie 4"></td>
+            <td><h3>Aqua Breeze Bliss</h3></td>
+            <td>Refreshing Aqua Hue, Serene Comfort</td>
+            <td>
+                <select>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>₱3500.00</td>
+            <td><button>Add to Cart</button></td>
+        </tr>
+
+        <tr>
+            <td><img src="images/product 5.png" alt="Hoodie 5"></td>
+            <td><h3>Forest Harmony Wrap</h3></td>
+            <td>Soft Forest Tones, Harmony Embraced Comfort</td>
+            <td>
+                <select>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>₱4750.00</td>
+            <td><button>Add to Cart</button></td>
+        </tr>
+    </table>
+</section>
+
+<section id="total-amount">
+    <h2>Total Amount to Pay</h2>
+    <p id="amount-display">₱0.00</p>
+    <button id="clear-cart">Clear Cart</button>
+</section>
+
+
+<!-- product video -->
+
+<h1> Product Video </h1>
+
+<div class="ab-row">
+    <div class="ab-vid">
+        <video src="THREADED _ Hoodie Advertisement.mp4" loop autoplay muted type="video/mp4"></video>
+    </div>
+</div>
+
+<!-- product audio -->
+
+<h1> Product Audio </h1>
+
+<audio controls>
+    <source src="audio_hoodie.mp3" type="audio/mpeg">
+</audio>
+<div class="about-us-container">
+    <div class="image-container">
+        <img src="images/ako.jpg" alt="Your Picture" class="image">
+    </div>
+    <div class="company-history">
+        <h2>The HOODHAVEN's History</h2>
+        <p>HoodHaven was founded in 2024 by James Cunanan Lombrino. The company started as a passion project to provide stylish and comfortable hoodies to the local community. Over the years, HoodHaven has grown to become a leading provider of high-quality apparel, delivering exceptional customer service and a wide range of designs to customers across the region.</p>
+        <div class="expanded-history">
+            The Origins of HoodHaven: A Founder's Lifelong Obsession with Hoodies
+
+            The story of HoodHaven begins with its founder, James Cunanan Lombrino, and their lifelong love affair with hoodies. From a young age, James was utterly captivated by the simple yet versatile garment, amassing an ever-growing collection of hoodies in every color, style, and material imaginable.
+
+            "I just couldn't get enough of them," James reminisces. "There was something about the comfort, the coziness, the way a hoodie could instantly make you feel relaxed and at ease. It was my go-to piece for everything, from lounging at home to going out with friends."
+
+            As James grew older, their passion for hoodies only intensified. They scoured stores and online retailers, searching endlessly for the perfect hoodie that checked all the boxes - superior quality, flattering fit, and that unbeatable sense of warmth and security. But more often than not, James would come up empty-handed, disappointed by the lack of truly exceptional hoodies on the market.
+
+            "I'd find hoodies that looked great, but they'd fall apart after a few wears. Or they'd be well-made, but the fit just wouldn't work for me," James explains. "I knew there had to be a way to create a hoodie that combined top-notch construction with a style and comfort level that would make it an everyday staple."
+
+            And so, in the early of this year, James decided to take matters into their own hands. Driven by their lifelong passion and an unwavering determination to fill the void in the market, they set out to launch their own apparel brand - one that would redefine the humble hoodie and elevate it to new heights of quality and desirability.
+
+            Thus, HoodHaven was born, a testament to the transformative power of a single, deceptively simple garment. From those early days of relentless prototyping and fabric experimentation, the brand has grown into a globally recognized lifestyle empire, all while staying true to its founder's original vision of creating the perfect hoodie.
+
+            "It's been an incredible journey," James reflects. "I never could have imagined that my love for hoodies would one day inspire the creation of a whole company. But I'm so grateful that I followed my passion and took a chance. HoodHaven is my life's work, and I'm honored to share it with the world."
+        </div>
+    </div>
+</div>
+
+<!--contact form-->
+
+<h1> Contact Form </h1>
+
+<section id="contact">
+  <div class="container">
+    <div class="map">
+	<p>
+      <center><iframe src="https://embed.waze.com/iframe?zoom=16&lat=14.750268&lon=121.049872&ct=livemap" width="600" height="450" allowfullscreen></iframe></center>
+    </div>
+	<center>
+    <div class="contact-info">
+      <h2>Contact Us</h2>
+      <div class="address">
+        <p>Company Address:</p>
+        <p>3rd Lane, Castlespring Heights, Caloocan City, Metro Manila</p>
+      </div>
+      <div class="phone">
+        <p>Telephone:</p>
+        <p>(123) 456-7890</p>
+      </div>
+      <div class="email">
+        <p>Email:</p>
+        <p>hood.haven.co@gmail.com</p>
+      </div>
+    </div>
+    <div class="contact-form">
+      <h2>Send us an Email</h2>
+      <form action="submit_form.php" method="POST">
+        <p><label for="name">Name:</label></p>
+        <input type="text" id="name" name="name" required>
+        <p><label for="email">Email:</label></p>
+        <input type="email" id="email" name="email" required>
+        <p><label for="message">Message:</label></p>
+        <textarea id="message" name="message" required></textarea>
+        <p><button type="submit">Submit</button></p>
+      </form>
+    </div>
+  </div>
+  </center>
+</section>
+
+  <section id="cart">
+        <h2>Your Cart</h2>
+        <table id="cart-table">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Size</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Cart items will be dynamically added here -->
+            </tbody>
+        </table>
+    </section>
+
+    <section id="order-summary">
+        <h2>Order Summary</h2>
+        <p id="total-amount">Total Amount: ₱0.00</p>
+
+        <div id="payment-method">
+            <h3>Payment Method</h3>
+            <select id="payment-options">
+                <option value="credit-card">Credit Card</option>
+                <option value="paypal">PayPal</option>
+                <option value="bank-transfer">Bank Transfer</option>
+            </select>
+        </div>
+
+        <button id="confirm-order">Confirm Order</button>
+    </section>
+
+<footer>
+    <div>
+        <p>&copy; 2024 HoodHaven. All rights reserved.</p>
+    </div>
+    <div>
+        <p>Follow us on social media:</p>
+        
+            <a href="https://www.facebook.com/HoodHaven" target="_blank">Facebook</a>
+            <a href="https://www.twitter.com/HoodHaven" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com/HoodHaven" target="_blank">Instagram</a>
+      
+    </div>
+	
+	
+</footer>
+
+
+
+
+</main>
+
+
+</body>
+</html>

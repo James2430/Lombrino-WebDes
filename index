@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - HoodHaven</title>
+</head>
+
+<body>
+<div class="head">
+            <div class="header-text">
+                <img src="images/logo.png" alt=""> 
+                <h1>HOODHAVEN</h1>
+                <h2>Style Meets Comfort</h2>
+            </div>
+    </div>
+
+    <nav>
+        <a href="HomePage.html">Home Page</a>	
+        <a href="Products.html">Products</a>
+        <a href="AboutUs.html">About Us</a>
+        <a href="ContactUs.html">Contact</a>	
+    </nav>
+<section class="services">
+    <div class="ser-color">
+        <h1 class="ser-h1">
+            Services
+        </h1>
+
+        <h2 class="ser-h2">
+            Care and Maintenance
+        </h2>
+    </div>
+
+    <div class="info-ser">
+        <div class="ser-box">
+            <i class='bx bxs-watch'></i>
+            <h3>
+                Tailored Fit Guarantee
+            </h3>
+            <p>
+                Your comfort is our first priority. Every hoodie is made to order with our custom fit guarantee, hugging your body with the exact amount of ease and style.
+            </p>
+        </div>
+        <div class="ser-box">
+            <i class='bx bxl-sketch'></i>
+            <h3>
+                Superior Linen Choice
+            </h3>
+            <p>
+                Savor elegance on each strand. For our sweatshirts, HoodieHaven chooses only the best materials, guaranteeing unmatched softness and longevity ensuring that you can enjoy toasty comfort without sacrificing quality.
+            </p>
+        </div>
+        <div class="ser-box">
+            <i class='bx bxl-opera' ></i>
+            <h3>
+                 Unlimited Warmth
+            </h3>
+            <p>
+                Explore the pinnacle of coziness and comfort with our classic sweatshirt designs. HoodieHaven offers a variety of styles that go well with every outfit, from traditional colors to cutting-edge cuts.
+            </p>
+        </div>
+    </div>
+
+</section>
+<main>
+    <section class="products">
+
+        <h1 class="pr-h1">
+            Featured Products
+        </h1>
+        <section id="services">
+        <h2><center>Our Products</center></h2>
+
+        <table>
+            <tr>
+                <th>Image</th>
+                <th>Product Name</th>
+                <th>Description</th>
+                <th>Sizes</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Add to Cart</th>
+            </tr>
+
+            <tr>
+                <td><img src="images/product 1.png" alt="Hoodie 1"></td>
+                <td><h3>Creamy Cloud Comfort</h3></td>
+                <td>Plush Cloud-Like Softness, Ultimate Comfort</td>
+                <td>
+                    <select>
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$60.00</td>
+                <td><button>Add to Cart</button></td>
+            </tr>
+
+            <tr>
+                <td><img src="images/product 2.png" alt="Hoodie 2"></td>
+                <td><h3>Mocha Hug Blend</h3></td>
+                <td>Rich Mocha Warmth, Cozy Embrace</td>
+                <td>
+                    <select>
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$100.00</td>
+                <td><button>Add to Cart</button></td>
+            </tr>
+
+            <tr>
+                <td><img src="images/product 3.png" alt="Hoodie 3"></td>
+                <td><h3>Celadon Serenity Cloak</h3></td>
+                <td>Smooth Serenity, Elegant Celadon Cloak</td>
+                <td>
+                    <select>
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$65.00</td>
+                <td><button>Add to Cart</button></td>
+            </tr>
+
+            <tr>
+                <td><img src="images/product 4.png" alt="Hoodie 4"></td>
+                <td><h3>Aqua Breeze Bliss</h3></td>
+                <td>Refreshing Aqua Hue, Serene Comfort</td>
+                <td>
+                    <select>
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$70.00</td>
+                <td><button>Add to Cart</button></td>
+            </tr>
+
+            <tr>
+                <td><img src="images/product 5.png" alt="Hoodie 5"></td>
+                <td><h3>Forest Harmony Wrap</h3></td>
+                <td>Soft Forest Tones, Harmony Embraced Comfort</td>
+                <td>
+                    <select>
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$95.00</td>
+                <td><button>Add to Cart</button></td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="total-amount">
+        <h2>Total Amount to Pay</h2>
+        <p id="amount-display">$0.00</p>
+    </section>
+
+<!-- product video -->
+
+<h1> Product Video </h1>
+
+<div class="ab-row">
+    <div class="ab-vid">
+        <video src="THREADED _ Hoodie Advertisement.mp4" loop autoplay muted type="video/mp4"></video>
+    </div>
+</div>
+
+<!-- product audio -->
+
+<h1> Product Audio </h1>
+
+<audio controls>
+    <source src="audio_hoodie.mp3" type="audio/mpeg">
+</audio>
+
+<!--contact form-->
+
+<h1> Contact Form </h1>
+
+<section id="contact">
+  <div class="container">
+    <div class="map">
+	<p>
+      <center><iframe src="https://embed.waze.com/iframe?zoom=16&lat=14.750268&lon=121.049872&ct=livemap" width="600" height="450" allowfullscreen></iframe></center>
+    </div>
+	<center>
+    <div class="contact-info">
+      <h2>Contact Us</h2>
+      <div class="address">
+        <p>Company Address:</p>
+        <p>3rd Lane, Castlespring Heights, Caloocan City, Metro Manila</p>
+      </div>
+      <div class="phone">
+        <p>Telephone:</p>
+        <p>(123) 456-7890</p>
+      </div>
+      <div class="email">
+        <p>Email:</p>
+        <p>hood.haven.co@gmail.com</p>
+      </div>
+    </div>
+    <div class="contact-form">
+      <h2>Send us an Email</h2>
+      <form action="submit_form.php" method="POST">
+        <p><label for="name">Name:</label></p>
+        <input type="text" id="name" name="name" required>
+        <p><label for="email">Email:</label></p>
+        <input type="email" id="email" name="email" required>
+        <p><label for="message">Message:</label></p>
+        <textarea id="message" name="message" required></textarea>
+        <p><button type="submit">Submit</button></p>
+      </form>
+    </div>
+  </div>
+  </center>
+</section>
+
+
+
+
+</main>
+
+
+</body>
+</html>

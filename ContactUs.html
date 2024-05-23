@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="stylesheet" href="ContactUs.css">
+    <title>Contact Us - HoodHaven </title>
+</head>
+
+<body>
+<div class="head">
+            <div class="header-text">
+                <img src="images/logo.png" alt=""> 
+                <h1>HOODHAVEN</h1>
+                <h2>Style Meets Comfort</h2>
+            </div>
+    </div>
+
+    <nav>
+    <a href="HomePage.html" data-tooltip="Go to Home">Home</a>
+    <a href="Products.html" data-tooltip="Check Our Products">Products</a>
+    <a href="AboutUs.html" data-tooltip="Learn About Us">About Us</a>
+    <a href="ContactUs.html" data-tooltip="Send Us a Message">Contact Us</a>
+    <a href="ViewCart.html" data-tooltip="View Your Cart">View Cart</a>
+    </nav>
+	
+	<section id="contact">
+  <div class="container">
+    <div class="map">
+	<p>
+      <center><iframe src="https://embed.waze.com/iframe?zoom=16&lat=14.750268&lon=121.049872&ct=livemap" width="600" height="450" allowfullscreen></iframe></center>
+    </div>
+	<center>
+    <div class="contact-info">
+      <h2>Contact Us</h2>
+      <div class="address">
+        <p>Company Address:</p>
+        <p>3rd Lane, Castlespring Heights, Caloocan City, Metro Manila</p>
+      </div>
+      <div class="phone">
+        <p>Telephone:</p>
+        <p>(123) 456-7890</p>
+      </div>
+      <div class="email">
+        <p>Email:</p>
+        <p>hood.haven.co@gmail.com</p>
+      </div>
+    </div>
+    <div class="contact-form">
+      <h2>Send us an Email</h2>
+      <form action="submit_form.php" method="POST">
+        <p><label for="name">Name:</label></p>
+        <input type="text" id="name" name="name" required>
+        <p><label for="email">Email:</label></p>
+        <input type="email" id="email" name="email" required>
+        <p><label for="message">Message:</label></p>
+        <textarea id="message" name="message" required></textarea>
+        <p><button type="submit">Submit</button></p>
+      </form>
+    </div>
+  </div>
+  </center>
+</section>
+
+<footer>
+    <div>
+        <p>&copy; 2024 HoodHaven. All rights reserved.</p>
+    </div>
+    <div>
+        <p>Follow us on social media:</p>
+        
+        <a href="https://www.facebook.com/profile.php?id=100092353251187&mibextid=LQQJ4d" target="_blank">Facebook</a>
+        <a href="https://x.com/gracelessj?s=11" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com/jaemslacomus?igsh=NXNkbmhobmJ3amdw&utm_source=qr" target="_blank">Instagram</a>
+      
+    </div>
+</footer>
